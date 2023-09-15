@@ -4,7 +4,7 @@ import csv
 from datetime import datetime
 from aiotruenas_client import CachingMachine as TrueNASMachine
 
-# please remember to check api_key, contact truongtbn or read ref: https://github.com/sdwilsh/aiotruenas-client/blob/main/aiotruenas_client/websockets/
+# please remember to check api_key, contact me or read ref: https://github.com/sdwilsh/aiotruenas-client/blob/main/aiotruenas_client/websockets/
 
 async def connect(host, api_key):
     try:
